@@ -9,12 +9,21 @@
 	"js-agent.newrelic.com",
 	"api.segment.io",
 	"woopra.com",
-	".ttf",
+	"\\.ttf",
 	"static.olark.com",
 	"static.getclicky.com",
 	"fast.fonts.com",
 	"youtube.com\/embed",
 	"cdn.heapanalytics.com",
 	"googleads.g.doubleclick.net",
-	"pagead2.googlesyndication.com"
+	"pagead2.googlesyndication.com",
+	"fullstory.com/rec",
+	"navilytics.com/nls_ajax.php",
+	"\\.eot",
+	"log.optimizely.com/event",
+	"\\.otf",
+	"hn.inspectlet.com",
+	"tpc.googlesyndication.com",
+	"partner.googleadservices.com",
+	"\\.woff"
 ]

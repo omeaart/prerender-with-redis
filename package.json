@@ -5,18 +5,28 @@
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/earlyclaim/prerender-with-redis"
+		"url": "https://github.com/omeaart/prerender-with-redis"
 	},
 	"dependencies": {
-		"aws-sdk": "^2.1.18",
-		"cache-manager": "^0.18.0",
-		"lodash": "^3.5.0",
-		"phantom": "^0.7.2",
-		"phantomjs": "^1.9.16",
-		"prerender-redis-cache": "git+https://github.com/frnwtr/prerender-redis-cache.git",
-		"tree-kill": "0.0.6"
+    "aws-sdk": "^2.4.12",
+    "cache-manager": "^2.1.2",
+    "lodash": "^4.14.1",
+    "phridge": "^2.0.0",
+    "signal-exit": "^3.0.0",
+    "he": "^1.1.0",
+    "prerender-redis-cache": "git+https://github.com/frnwtr/prerender-redis-cache.git"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.1",
+    "sinon": "^1.17.5"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
 	},
 	"bin": {
 		"prerender": "server.js"
+  },
+  "engines": {
+    "node": ">=0.12.9"
 	}
 }
